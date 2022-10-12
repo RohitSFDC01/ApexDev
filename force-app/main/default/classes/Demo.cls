@@ -4,6 +4,7 @@ public with sharing class Demo {
   }
   public void doSomething() {
     System.debug('Demo doSomething');
+    System.debug('Demo doSomething');
   }
   public static List<Account> getAccounts() {
     System.debug('Demo.getAccounts()');
